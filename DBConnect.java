@@ -19,7 +19,7 @@ public class DBConnect {
     
     static{
         try{
-            conn =  DriverManager.getConnection("jdbc:mysql:///spendingdb"+"?useSSL=false", "root", "V@ishnavi09");
+            conn =  DriverManager.getConnection("jdbc:mysql:///spendingdb"+"?useSSL=false", "root", "123456");
             st = conn.createStatement();
         }
         catch(Exception e)
