@@ -1,0 +1,24 @@
+MYSQL Queries : 
+
+create table 1 : 
+
+spendings with column sid , category , spending_date , amount .
+
+Here sid is auto_increment , category varchar(50),spending_date date type and amount int type . 
+
+SELECT * FROM spendingdb.spendings;
+
+
+create table 2 :
+
+create table category_info(category varchar(50) primary key not null unique key);
+
+SELECT * FROM spendingdb.category_info;
+
+
+create a GUI package for Category.java , Expense.java , ViewSpending.java .
+
+A new package called ExtraFiles for about , add , exit and loupe_1 .
+
+And package db for DBConnect.java
+
